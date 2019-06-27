@@ -1,0 +1,8 @@
+[package]
+name = "dotenv-codegen-rustc-hang"
+version = "0.1.0"
+authors = ["brainstorm <brainstorm@nopcode.org>"]
+edition = "2018"
+
+[dependencies]
+dotenv_codegen = "0.14.1"
