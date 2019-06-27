@@ -1,4 +1,6 @@
-# Dotenv codegen and `rustc 1.35.0 (3c235d560 2019-05-20)`
+# Dotenv codegen Rust compiler bug
+
+**EDIT: bug being investigated on issue https://github.com/rust-lang/rust/issues/62167**
 
 Building forever (and so does [RLS](https://github.com/rust-lang/rls) under VSCode editor):
 
@@ -8,7 +10,7 @@ dotenv-codegen-rustc-hang romanvg$ cargo build
 ^C  Building [======================================================>  ] 39/40: dotenv-codegen-rustc-hang(bin)
 ```
 
-Tested on all those toolchain versions:
+Tested on the following toolchain versions as of 2019-06-27:
 
 ```bash
 $ rustup show
