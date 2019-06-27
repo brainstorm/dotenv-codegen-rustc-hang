@@ -8,7 +8,9 @@ dotenv-codegen-rustc-hang romanvg$ cargo build
 ^C  Building [======================================================>  ] 39/40: dotenv-codegen-rustc-hang(bin)
 ```
 
-# rustc verbose
+Tested all the way down to rustc 1.31.0... hangs.
+
+# rustc --verbose
 
 ```bash
 $ cargo build --verbose
