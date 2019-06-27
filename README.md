@@ -8,7 +8,28 @@ dotenv-codegen-rustc-hang romanvg$ cargo build
 ^C  Building [======================================================>  ] 39/40: dotenv-codegen-rustc-hang(bin)
 ```
 
-Tested all the way down to rustc 1.31.0... hangs.
+Tested on all those toolchain versions:
+
+```bash
+$ rustup show
+Default host: x86_64-unknown-linux-gnu
+
+installed toolchains
+--------------------
+
+stable-x86_64-unknown-linux-gnu
+nightly-x86_64-unknown-linux-gnu (default)
+1.30.0-x86_64-unknown-linux-gnu
+1.31.0-x86_64-unknown-linux-gnu
+1.33.0-x86_64-unknown-linux-gnu
+1.34.0-x86_64-unknown-linux-gnu
+
+active toolchain
+----------------
+
+nightly-x86_64-unknown-linux-gnu (default)
+rustc 1.37.0-nightly (d3e2cec29 2019-06-26)
+```
 
 # rustc --verbose
 
