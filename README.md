@@ -1,6 +1,7 @@
 # Dotenv codegen Rust compiler bug
 
 **EDIT: bug being investigated on issue https://github.com/rust-lang/rust/issues/62167**
+**EDIT2: Finally solved on issue https://github.com/rust-lang/rust/issues/44692#issuecomment-509350432 as part of a refactor :)**
 
 Building forever (and so does [RLS](https://github.com/rust-lang/rls) under VSCode editor):
 
